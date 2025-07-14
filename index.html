@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Mirror</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="maindiv">
+        <h1 id="head1">MOOD MIRROR</h1>
+        <p>Select your current mood:</p>
+        <div id="buttons">
+            <button id="but1" onclick="setMood('happy')">Happy😊</button>
+            <button id="but2" onclick="setMood('sad')">Sad😔</button>
+            <button id="but3" onclick="setMood('angry')">Angry😡</button>
+            <button id="but4" onclick="setMood('tired')">Tired😴</button>
+            <button id="but5" onclick="setMood('excited')">Excited🤩</button>
+        </div>
+        <div id="bottom">
+            <h2 id="curr-mood">Your mood:</h2>
+            <p id="quote"></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
